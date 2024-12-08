@@ -75,18 +75,17 @@ WSGI_APPLICATION = 'Facial_Recognition_Monitoring_System.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-import dj_database_url
-DATABASES = {
-    'default': {
-        'default': dj_database_url.config(default=os.getenv('DATABASE_URL')),
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'College_Database',  # Replace with your database name
-        'USER': 'root',       # Replace with your MySQL username
-        'PASSWORD': '9382232886',  # Replace with your MySQL password
-        'HOST': '127.0.0.1',     # Replace with your database host, e.g., 'localhost'
-        'PORT': '3306',          # Default MySQL port
-    }
-}
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'College_Database',  # Replace with your database name
+#         'USER': 'root',       # Replace with your MySQL username
+#         'PASSWORD': '9382232886',  # Replace with your MySQL password
+#         'HOST': '127.0.0.1',     # Replace with your database host, e.g., 'localhost'
+#         'PORT': '3306',          # Default MySQL port
+#     }
+# }
 
 
 # Password validation
