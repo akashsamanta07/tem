@@ -56,8 +56,6 @@ body,html {
             }
             .user_card {
                 width: 250px;
-                margin-top: auto;
-                margin-bottom: auto;
                 background: #74cfbf;
                 margin: 4rem auto;
                 padding: 1rem;
