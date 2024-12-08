@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(9, 107, 132);
+}
+body{
+    background-color: rgb(74, 180, 233);
+}
+.full button{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:575px){
+    header h2{
+        font-size: 1.2rem;
+    }
+    button{
+        font-size: 0.8rem !important;
+    }
+    footer p{
+        font-size: 0.8rem !important;
+    }
+}
